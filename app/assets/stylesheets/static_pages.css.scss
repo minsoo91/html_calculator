@@ -1,0 +1,145 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	height: 100vh;
+	width: 100vw;
+}
+#content {
+	width: 100%;
+	height: 800px;
+}
+
+#calcImageWrapper {
+	position: relative;
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	img {
+		height: 40%;
+		width: 25%;
+		display: block;
+	}
+	.button {
+		position: absolute;
+		border-radius: 8px;
+		background: rgba(100, 100, 150, 1);
+		opacity: 0;
+		z-index: 10;
+	}
+	.regular {
+		height: 8%;
+		width: 3.5%;
+	}
+	.elongated {
+		position: absolute;
+		height: 23%;
+		width: 3.2%;
+		border-radius: 8px;
+		background: rgba(100, 100, 150, 0.5);
+		z-index: 10;
+	}
+	#on {
+		top: 39.8%;
+		left: 16.1%;
+	}
+	#off {
+		top: 39.8%;
+		left: 20.1%;
+	}
+	#seven {
+		top: 49.9%;
+		left: 1.8%;
+	}
+	#eight {
+		top: 49.9%;
+		left: 6.8%;
+	}
+	#nine {
+		top: 49.9%;
+		left: 11.7%;
+	}
+	#percent {
+		top: 49.9%;
+		left: 16.3%;
+	}
+	#squareRoot {
+		top: 49.9%;
+		left: 20.3%;
+	}
+	#four {
+		top: 63.3%;
+		left: 1.8%;
+	}
+	#five {
+		top: 63.3%;
+		left: 6.8%;
+	}
+	#six {
+		top: 63.3%;
+		left: 11.7%;
+	}
+	#multiply {
+		top: 62.9%;
+		left: 16.2%;
+	}
+	#divide {
+		top: 62.5%;
+		left: 20.3%;
+	}
+	#one {
+		top: 76.6%;
+		left: 1.8%;
+	}
+	#two {
+		top: 76.6%;
+		left: 6.8%;
+	}
+	#three {
+		top: 76.6%;
+		left: 11.7%;
+	}
+	#zero {
+		top: 89%;
+		left: 1.8%;
+	}
+	#decimal {
+		top: 89%;
+		left: 6.8%;
+	}
+	#equals {
+		top: 89%;
+		left: 11.7%;
+	}
+	#add {
+		top: 74%;
+		left: 16.4%;
+	}
+	#subtract {
+		top: 74%;
+		left: 20.6%;
+	}
+	#screen {
+		box-sizing: border-box;
+		top: 18%;
+		left: 2.8%;
+		position: absolute;
+		width: 19%;
+		height: 16%;
+		border-radius: 8px;	
+		background:light-blue;
+		padding: 2%;
+		padding-right: 0;
+		font-size: 2em;
+		font-family: Arial;
+		text-align: right;
+	}
+}
+
+#calcImageWrapper:after {
+	clear: both;
+	content: "";
+	display: block;
+}
